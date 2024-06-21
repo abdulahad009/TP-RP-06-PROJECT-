@@ -1,0 +1,28 @@
+/* Navbar Started */
+.nav {
+    display: flex;
+    text-align: center;
+    padding: 20px 40px;
+    justify-content: space-between;
+    background-color: rgb(95, 2, 2);
+    color: rgb(247, 241, 241);
+}
+
+.logo {
+
+}
+
+.nav > div > ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav > div > ul > li:hover {
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+} 

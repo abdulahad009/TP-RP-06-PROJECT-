@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">
-        Login
-    </h1>
-    
-    <form action="index.php" method="post">
-        <label for="username">username</label>
-        <input class="username" name="username" id="username">
-        <label for="password" >password </label>
-        <input class="password" name="password" id="password">
-        <input type="submit" name="submit">
+    <form action="index.php" method="get">
+        <div class="main">
+            <h1 id="title"> Login </h1>
+            <label for="username" class="">username</label>
+            <input type="username" id="username" name="username" required><br>
+            <label for="password" class="">password</label>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" id="button">
+        </div>
     </form>
-
-    
 </body>
 </html>
